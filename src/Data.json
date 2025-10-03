@@ -2,10 +2,10 @@
   "heroData": {
     "homeOneHero": {
       "bgImgLink": "/images/background/hero-bg.jpg",
-      "imgLink": "/images/section/hero-img.jpg",
-      "title": "Edward <br /> Davis",
+      "imgLink": "/images/section/Hassan-Raza.png",
+      "title": "Hassan <br />Raza",
       "subTitle": "Hello, I’m",
-      "designation": "Visual Designer"
+      "designation": "Web Developer"
     },
     "homeTwoHero": {
       "imgAuthor": "/images/section/hero-img.jpg",
