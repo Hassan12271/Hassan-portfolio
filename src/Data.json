@@ -29,36 +29,36 @@
   "aboutData": {
     "imgLink": "/images/section/about.jpg",
     "cvPdf": "/images/Resume.pdf",
-    "title": "Hi There! I'm Edward Davis",
-    "subtitle": "Visual Designer",
+    "title": "Hi There! I'm Hassan Raza",
+    "subtitle": "Web & App Developer",
     "text": "I am a Visual Designer with a strong focus on digital branding. Visul design seeks to attract, inspire, create desires and otivate people to respond to messages, with a view to making a favorable impact.",
     "details": [
       {
         "title": "Birthday",
-        "info": "May 07, 1990"
+        "info": "July 12, 2004"
       },
       {
         "title": "Phone",
-        "info": "+1 876-369-9009"
+        "info": "+92 3132453790"
       },
       {
         "title": "Email",
-        "info": "devis@example.com"
+        "info": "hassandanyal18@gmail.com"
       },
       {
         "title": "From",
-        "info": "2661 Hich meadow lane bear creek"
+        "info": "Gulshan-e-iqbal Karachi Pakistan"
       },
       {
         "title": "Language",
-        "info": "English, Germanic"
+        "info": "English, Urdu, Basic Arabic"
       },
       {
         "title": "Freelance",
         "info": "Available"
       },
       {
-        "title": "Freelance",
+        "title": "On-side Job",
         "info": "Available"
       }
     ]
