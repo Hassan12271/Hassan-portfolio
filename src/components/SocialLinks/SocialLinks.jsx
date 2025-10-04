@@ -14,6 +14,7 @@ const SocialLinks = ({ data }) => {
       {data.map((item, index) => (
         <Link
           to={item.link}
+          target='_blank'
           className={index === activeLink ? 'st-social-btn active' : 'st-social-btn'}
           onMouseEnter={() => handleIconHover(index)}
           key={index}
