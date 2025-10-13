@@ -66,48 +66,72 @@
   "serviceData": {
     "services": [
       {
-        "imgLink": "./images/icon/icon1.png",
-        "title": "Sketches",
+        "imgLink": "./images/icon/html.png",
+        "title": "HTML",
         "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "200"
       },
       {
-        "imgLink": "./images/icon/icon2.png",
-        "title": "UI/UX Design",
+        "imgLink": "./images/icon/css.png",
+        "title": "CSS",
         "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "300"
       },
       {
-        "imgLink": "./images/icon/icon3.png",
-        "title": "Product Design",
+        "imgLink": "./images/icon/js.png",
+        "title": "Javascript",
         "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "400"
       },
       {
-        "imgLink": "./images/icon/icon4.png",
-        "title": "App Design",
+        "imgLink": "./images/icon/wp.png",
+        "title": "WordPress",
         "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "500"
       },
       {
-        "imgLink": "./images/icon/icon5.png",
-        "title": "Motion Graphics",
+        "imgLink": "./images/icon/shopify.png",
+        "title": "Shopify",
         "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "600"
       },
       {
-        "imgLink": "./images/icon/icon6.png",
-        "title": "Responsive Design",
+        "imgLink": "./images/icon/wix.png",
+        "title": "Wix",
+        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "imgLink": "./images/icon/squarespace.png",
+        "title": "Squarespace",
+        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "imgLink": "./images/icon/webflow.png",
+        "title": "Webflow",
+        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "imgLink": "./images/icon/joomla.png",
+        "title": "Joomla",
         "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
         "effect": "zoom-out-up",
         "duration": "500",
@@ -120,43 +144,43 @@
     "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
     "skills": [
       {
-        "title": "Photoshop",
-        "progress": "95%",
+        "title": "HTML",
+        "progress": "100%",
         "effect": "fade-up",
         "duration": "500",
         "delay": "200"
       },
       {
-        "title": "Motion Graphic",
-        "progress": "75%",
+        "title": "CSS",
+        "progress": "100%",
         "effect": "fade-up",
         "duration": "500",
         "delay": "300"
       },
       {
-        "title": "Adobe XD",
-        "progress": "90%",
+        "title": "Javascript",
+        "progress": "100%",
         "effect": "fade-up",
         "duration": "500",
         "delay": "400"
       },
       {
-        "title": "UX Design",
-        "progress": "85%",
+        "title": "CMS",
+        "progress": "100%",
         "effect": "fade-up",
         "duration": "500",
         "delay": "500"
       },
       {
-        "title": "HTML",
-        "progress": "80%",
+        "title": "Hostings",
+        "progress": "100%",
         "effect": "fade-up",
         "duration": "500",
         "delay": "600"
       },
       {
-        "title": "Digital Marketing",
-        "progress": "90%",
+        "title": "Domains",
+        "progress": "100%",
         "effect": "fade-up",
         "duration": "500",
         "delay": "700"
@@ -166,10 +190,10 @@
   "portfolioData": {
     "portfolioItems": [
       {
-        "imgLink": "./images/portfolio/portfolio1.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "imgLink": "./images/portfolio/LA.png",
+        "imgLinkLg": "./images/portfolio/la-large.png",
+        "title": "Website Development",
+        "subTitle": "Astatic / Beauty",
         "effect": "fade-up",
         "duration": "500",
         "delay": "200"
@@ -512,42 +536,42 @@
     "experienceTitle": "Experience",
     "experience": [
       {
-        "title": "Senior UX/UI Designer",
-        "duration": "Jan 2020 - Present",
-        "subTitle": "Bergnaum, Hills and Howe",
+        "title": "Senior Wordpress Developer",
+        "duration": "Sep 2023 - Present",
+        "subTitle": "Bahadurabad Karachi, Rumpala LTD",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
       },
       {
-        "title": "Product Designer",
-        "duration": "Jan 2016 - December 2019",
-        "subTitle": "Langosh, Sipes and Raynor",
+        "title": "Intrenship WordPress",
+        "duration": "Nov 2021 - September 2023",
+        "subTitle": "Nazimabad Karachi, KGT Globle",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
       },
       {
-        "title": "UI/UX Designer",
-        "duration": "Jan 2014 - December 2015",
-        "subTitle": "Strosin, Maggio and Homenick",
+        "title": "Intrenship WordPress",
+        "duration": "Aug 2021 - Nov 2021",
+        "subTitle": "Nazimabad Karachi, KGT Globle",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
       }
     ],
     "educationTitle": "Education",
     "education": [
       {
-        "title": "Master of Computer Science",
-        "duration": "2015 - 2016",
-        "subTitle": "University of XYZ",
+        "title": "Diploma in Web & App Development",
+        "duration": "2023 - 2024",
+        "subTitle": "SMIT Institute",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
       },
       {
-        "title": "Bachelor of Computer Science",
-        "duration": "2010 - 2014",
-        "subTitle": "University of ABC",
+        "title": "intermediate in Pre-engineering",
+        "duration": "2021 - 2023",
+        "subTitle": "Siraj UD Daulah College Karachi",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
       },
       {
-        "title": "Diploma in Computer Science",
-        "duration": "2006 - 2010",
-        "subTitle": "XYZ Institution",
+        "title": "Matriculate in Computer Science",
+        "duration": "2019 - 2021",
+        "subTitle": "Liaqut Public School Karachi",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
       }
     ]
