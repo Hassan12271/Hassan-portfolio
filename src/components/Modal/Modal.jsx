@@ -5,7 +5,6 @@ const Modal = ({ img, title, subTitle, modalClose }) => {
     backgroundColor: 'rgba(0,0,0,0.8)',
     display: 'block',
   };
-    //  console.log({link});
   return (
     <div className="modal show fade bd-example-modal-lg" style={modalStyle}>
       <div className="modal-dialog modal-lg">
