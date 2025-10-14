@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { Icon } from '@iconify/react';
 
 const SinglePortfolio = ({ data, getData }) => {
-  const { imgLink, imgLinkLg, title, subTitle, effect, duration, delay } = data;
+  const { imgLink, imgLinkLg, webLink, title, subTitle, effect, duration, delay } = data;
 
   return (
     <div className="col-lg-4 col-md-6" data-aos={effect} data-aos-duration={duration} data-aos-delay={delay}>
@@ -10,7 +10,7 @@ const SinglePortfolio = ({ data, getData }) => {
         <div className="st-portfolio-item">
           <div className="st-portfolio st-zoom">
             <div className="st-portfolio-img st-zoom-in">
-              <img src={imgLink} alt="portfolio" />
+                <img src={imgLink} alt="portfolio" />
             </div>
             <div className="st-portfolio-item-hover">
               <Icon icon="mdi:plus-circle" />

@@ -5,6 +5,7 @@ const Modal = ({ img, title, subTitle, modalClose }) => {
     backgroundColor: 'rgba(0,0,0,0.8)',
     display: 'block',
   };
+    //  console.log({link});
   return (
     <div className="modal show fade bd-example-modal-lg" style={modalStyle}>
       <div className="modal-dialog modal-lg">
@@ -19,7 +20,7 @@ const Modal = ({ img, title, subTitle, modalClose }) => {
           </div>
           <div className="modal-body">
             <div className="st-flex-center">
-              <img src={img} />
+              <img src={img} />   
             </div>
             <p className="modal-subtitle">{subTitle}</p>
           </div>
