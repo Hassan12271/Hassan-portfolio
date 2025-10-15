@@ -19,6 +19,7 @@
     background-color: $dark-color4;
     padding: 30px 15px;
     border: 1px solid $base-color4;
+    min-height: 280px;
     margin-bottom: 40px;
 
     &::after {
@@ -53,7 +54,6 @@
   .st-testimonial-info {
     align-items: center;
     text-align: center;
-    margin-bottom: -4px;
   }
 
   .st-testimonial-img {

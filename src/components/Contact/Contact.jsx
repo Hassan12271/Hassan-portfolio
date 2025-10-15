@@ -4,8 +4,39 @@ import './Contact.scss';
 import SectionHeading from '../SectionHeading/SectionHeading';
 import { Icon } from '@iconify/react';
 import SocialLinks from '../SocialLinks/SocialLinks';
+import React, { useRef, useState } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = ({ data, socialData }) => {
+  const [status, setStatus] = useState("");
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_puy5ynh", // your Service ID
+        "template_3o0cyop", // your Template ID
+        form.current,
+        "kpKXw-yeg_G-8sePL" // your Public Key
+      )
+      .then(
+        (result) => {
+          console.log("Success:", result.text);
+          // alert("Message sent successfully!");
+          setStatus("Thank you for contacting me!");
+          setTimeout(() => setStatus(""), 5000);
+          form.current.reset(); // clear form after send
+        },
+        (error) => {
+          console.error("Error:", error.text);
+          // alert("Failed to send message. Check console for details.");
+          setStatus("Something went wrong. Please try again.");
+          setTimeout(() => setStatus(""), 5000);
+        }
+      );
+  };
   const { title, text, subTitle } = data;
   return (
     <section id="contact" className="st-dark-bg">
@@ -16,7 +47,7 @@ const Contact = ({ data, socialData }) => {
           <div className="col-lg-6">
             <h3 className="st-contact-title">Just say Hello</h3>
             <div id="st-alert"></div>
-            <form action="#" method="POST" className="st-contact-form" id="contact-form">
+            <form ref={form} onSubmit={sendEmail} className="st-contact-form" id="contact-form">
               <div className="st-form-field">
                 <input type="text" id="name" name="name" placeholder="Your Name" required />
               </div>
@@ -27,11 +58,15 @@ const Contact = ({ data, socialData }) => {
                 <input type="text" id="subject" name="subject" placeholder="Your Subject" required />
               </div>
               <div className="st-form-field">
+                <input type="tel" id="phone" name="phone" placeholder="Your Number" required />
+              </div>
+              <div className="st-form-field">
                 <textarea cols="30" rows="10" id="msg" name="msg" placeholder="Your Message" required></textarea>
+                <input type="hidden" name="time" value={new Date().toLocaleString()} />
+                <div className="st-height-b0 st-height-lg-b30" id='success-message'>{status && <p>{status}</p>}</div>
               </div>
               <button className='st-btn st-style1 st-color1' type="submit" id="submit" name="submit">Send Message</button>
             </form>
-            <div className="st-height-b0 st-height-lg-b30"></div>
           </div>
           <div className="col-lg-6">
             <div className="st-height-b0 st-height-lg-b40"></div>
@@ -44,8 +79,7 @@ const Contact = ({ data, socialData }) => {
                 </div>
                 <div className="st-single-info-details">
                   <h4>Email</h4>
-                  <Link to="#">devis@example.com</Link>
-                  <Link to="#">info@support.com</Link>
+                  <Link to="mailto:hassandanyal18@gmail.com">hassandanyal18@gmail.com</Link>
                 </div>
               </div>
               <div className="st-single-contact-info">
@@ -54,8 +88,7 @@ const Contact = ({ data, socialData }) => {
                 </div>
                 <div className="st-single-info-details">
                   <h4>Phone</h4>
-                  <span>+1 876-369-9009</span>
-                  <span>+1 213-519-1786</span>
+                  <span><Link to="tel:+92-3132453790"> +92-3132453790</Link></span>
                 </div>
               </div>
               <div className="st-single-contact-info">
@@ -64,7 +97,7 @@ const Contact = ({ data, socialData }) => {
                 </div>
                 <div className="st-single-info-details">
                   <h4>Address</h4>
-                  <span>2661 High Meadow Lane Bear Creek, <br />Olancha, KY 93544</span>
+                  <span>Gulshan-e-iqbal Karachi Pakistan</span>
                 </div>
               </div>
               <div className="st-social-info">

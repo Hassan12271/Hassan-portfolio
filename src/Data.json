@@ -27,11 +27,11 @@
     }
   },
   "aboutData": {
-    "imgLink": "/images/section/about.jpg",
+    "imgLink": "/images/section/Hassan-about.png",
     "cvPdf": "/images/3092025-Hassan-Raza-latest-CV.pdf",
     "title": "Hi There! I'm Hassan Raza",
     "subtitle": "Web & App Developer",
-    "text": "I am a Visual Designer with a strong focus on digital branding. Visul design seeks to attract, inspire, create desires and otivate people to respond to messages, with a view to making a favorable impact.",
+    "text": "Hi! I’m Hassan Raza, a passionate Web and App Developer with a creative eye for visual design and digital branding. I love transforming ideas into interactive and meaningful digital experiences. My goal is to design and develop websites and applications that not only look great but also perform seamlessly across all devices.",
     "details": [
       {
         "title": "Birthday",
@@ -68,7 +68,7 @@
       {
         "imgLink": "./images/icon/html.png",
         "title": "HTML",
-        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "text": "Clean and semantic HTML structure to build fast, SEO-friendly, and fully responsive web pages for all devices.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "200"
@@ -76,7 +76,7 @@
       {
         "imgLink": "./images/icon/css.png",
         "title": "CSS",
-        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "text": "Modern, pixel-perfect styling using CSS and animations to make websites visually appealing and user-friendly.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "300"
@@ -84,7 +84,7 @@
       {
         "imgLink": "./images/icon/js.png",
         "title": "Javascript",
-        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "text": "Dynamic and interactive website features using JavaScript to enhance user experience and functionality.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "400"
@@ -92,7 +92,7 @@
       {
         "imgLink": "./images/icon/wp.png",
         "title": "WordPress",
-        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "text": "Custom WordPress websites with theme setup, plugin integration, and responsive design for any business need.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "500"
@@ -100,7 +100,7 @@
       {
         "imgLink": "./images/icon/shopify.png",
         "title": "Shopify",
-        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "text": "Professional Shopify store setup with custom design, product management, and smooth online shopping experience.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "600"
@@ -108,7 +108,7 @@
       {
         "imgLink": "./images/icon/wix.png",
         "title": "Wix",
-        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "text": "Creative Wix websites with intuitive layouts, mobile optimization, and stunning visuals that match your brand.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "700"
@@ -116,7 +116,7 @@
       {
         "imgLink": "./images/icon/squarespace.png",
         "title": "Squarespace",
-        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "text": "Elegant and minimal Squarespace designs that focus on performance, clarity, and beautiful presentation.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "700"
@@ -124,7 +124,7 @@
       {
         "imgLink": "./images/icon/webflow.png",
         "title": "Webflow",
-        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "text": "Custom Webflow websites with advanced animations and responsive layouts for a modern, high-end web presence.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "700"
@@ -132,7 +132,7 @@
       {
         "imgLink": "./images/icon/joomla.png",
         "title": "Joomla",
-        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "text": "Robust Joomla website development with secure, scalable, and customizable solutions for business or personal use.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "700"
@@ -141,7 +141,7 @@
   },
   "skillData": {
     "title": "All the skills that I have in that field of work are mentioned.",
-    "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+    "text": "I have a strong command over front-end and CMS-based web development tools. My skills allow me to design and develop modern, responsive, and user-friendly websites that perform smoothly across all devices. I work confidently with HTML, CSS, and JavaScript to create fast, interactive, and visually balanced websites. Alongside coding, I specialise in popular platforms like WordPress, Shopify, Wix, Squarespace, Webflow, and Joomla, building custom websites tailored to each client’s goals. My focus is always on writing clean code, ensuring responsive layouts, and maintaining excellent performance standards. I continuously learn new tools and techniques to stay updated with the latest trends in web development and design.",
     "skills": [
       {
         "title": "HTML",
@@ -528,40 +528,29 @@
     },
     "informations": [
       {
-        "imgLink": "./images/client/client1.png",
-        "title": "Richard Miles",
-        "designation": "Chairman",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+        "title": "Client",
+        "designation": "Web Design",
+        "text": "Hassan did an amazing job on my WordPress website! He understood exactly what I needed and transformed my ideas into a clean, responsive design. Communication was smooth throughout the project, and he even suggested improvements that made the site look more professional. Highly recommended!"
       },
       {
-        "imgLink": "./images/client/client2.png",
-        "title": "Vesta Shufelt",
-        "designation": "Executive Director",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+        "title": "Client",
+        "designation": "Shopify Store",
+        "text": "I hired Hassan to build my Shopify store from scratch, and I couldn’t be happier with the result. He delivered a fully functional, fast, and mobile-friendly website ahead of schedule. His attention to detail and problem-solving skills are impressive!"
       },
       {
-        "imgLink": "./images/client/client3.png",
-        "title": "Joseph Alves",
-        "designation": "Managing Director",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+        "title": "Client",
+        "designation": "Wix / Squarespace Project",
+        "text": "Working with Hassan was such a pleasant experience. He designed my Wix site beautifully, keeping the layout simple and elegant. He also took the time to teach me how to update my site later on. I’ll definitely work with him again!"
       },
       {
-        "imgLink": "./images/client/client1.png",
-        "title": "Richard Miles",
-        "designation": "Chairman",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+        "title": "Client",
+        "designation": "Team Collaboration",
+        "text": "As a teammate, Hassan is supportive, creative, and highly skilled. He takes feedback positively and is always ready to help others. His knowledge of multiple CMS platforms like WordPress, Joomla, and Webflow makes him a valuable asset to any team"
       },
       {
-        "imgLink": "./images/client/client2.png",
-        "title": "Vesta Shufelt",
-        "designation": "Executive Director",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
-      },
-      {
-        "imgLink": "./images/client/client3.png",
-        "title": "Joseph Alves",
-        "designation": "Managing Director",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+        "title": "Client",
+        "designation": "Webflow / Front-End Work",
+        "text": "Hassan is one of the most reliable developers I’ve worked with. His expertise in HTML, CSS, and JavaScript really shines when handling complex front-end tasks. He’s always calm under pressure and delivers clean, maintainable code."
       }
     ]
   },
@@ -572,19 +561,19 @@
         "title": "Senior Wordpress Developer",
         "duration": "Sep 2023 - Present",
         "subTitle": "Bahadurabad Karachi, Rumpala LTD",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+        "text": "Leading WordPress projects, custom themes, and plugin integrations for business websites."
       },
       {
         "title": "Intrenship WordPress",
         "duration": "Nov 2021 - September 2023",
         "subTitle": "Nazimabad Karachi, KGT Globle",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+        "text": "Assisted in website maintenance, theme customisation, and client support."
       },
       {
         "title": "Intrenship WordPress",
         "duration": "Aug 2021 - Nov 2021",
         "subTitle": "Nazimabad Karachi, KGT Globle",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+        "text": "Learned WordPress fundamentals and hands-on experience with live projects."
       }
     ],
     "educationTitle": "Education",
@@ -593,19 +582,19 @@
         "title": "Diploma in Web & App Development",
         "duration": "2023 - 2024",
         "subTitle": "SMIT Institute",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+        "text": "Developed responsive websites and web apps using React, WordPress, and modern UI frameworks."
       },
       {
         "title": "intermediate in Pre-engineering",
         "duration": "2021 - 2023",
         "subTitle": "Siraj UD Daulah College Karachi",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+        "text": "Focused on analytical skills, mathematics, and logical problem-solving."
       },
       {
         "title": "Matriculate in Computer Science",
         "duration": "2019 - 2021",
-        "subTitle": "Liaqut Public School Karachi",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla, tincidunt id faucibus sed, suscipit feugiat turpis."
+        "subTitle": "Liaquat Public School Karachi",
+        "text": "Learned programming basics and built a strong foundation in computer systems."
       }
     ]
   },
@@ -613,7 +602,7 @@
     "formTitle": "Just say Hello",
     "title": "Contact Info",
     "subTitle": "Visite my social profile and get connected",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla tincidunt id faucibus sed suscipit feugiat."
+    "text": "Let’s connect! I’m always open to discussing new projects, creative ideas, or opportunities to collaborate in web and app development."
   },
   "socialData": [
     {
