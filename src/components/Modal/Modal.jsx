@@ -1,6 +1,6 @@
 import './Modal.scss';
 
-const Modal = ({ img, title, subTitle, modalClose }) => {
+const Modal = ({ img, title, subTitle, modalClose, portfolioUrl }) => {
   const modalStyle = {
     backgroundColor: 'rgba(0,0,0,0.8)',
     display: 'block',
@@ -10,7 +10,7 @@ const Modal = ({ img, title, subTitle, modalClose }) => {
       <div className="modal-dialog modal-lg">
         <div className="modal-content">
           <div className="modal-header">
-            <h4 className="modal-title">{title}</h4>
+            <h4 className="modal-title"><a href={portfolioUrl} target="_blank">{title} <span className='link'>Veiw Full Wesbite</span></a></h4>
             <button
               type="button"
               className="btn-close"

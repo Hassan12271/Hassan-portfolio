@@ -6,7 +6,7 @@ const SinglePortfolio = ({ data, getData }) => {
 
   return (
     <div className="col-lg-4 col-md-6" data-aos={effect} data-aos-duration={duration} data-aos-delay={delay}>
-      <div className="st-portfolio-single st-style1" onClick={() => getData(imgLinkLg, title, subTitle)}>
+      <div className="st-portfolio-single st-style1" onClick={() => getData(imgLinkLg, title, subTitle, webLink)}>
         <div className="st-portfolio-item">
           <div className="st-portfolio st-zoom">
             <div className="st-portfolio-img st-zoom-in">
