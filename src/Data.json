@@ -172,6 +172,13 @@
         "delay": "500"
       },
       {
+        "title": "DataBase",
+        "progress": "100%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500"
+      },
+      {
         "title": "Hostings",
         "progress": "100%",
         "effect": "fade-up",
@@ -180,6 +187,13 @@
       },
       {
         "title": "Domains",
+        "progress": "100%",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "title": "SEO",
         "progress": "100%",
         "effect": "fade-up",
         "duration": "500",
@@ -564,7 +578,7 @@
         "text": "Leading WordPress projects, custom themes, and plugin integrations for business websites."
       },
       {
-        "title": "Intrenship WordPress",
+        "title": "Junior WordPress",
         "duration": "Nov 2021 - September 2023",
         "subTitle": "Nazimabad Karachi, KGT Globle",
         "text": "Assisted in website maintenance, theme customisation, and client support."
@@ -585,13 +599,13 @@
         "text": "Developed responsive websites and web apps using React, WordPress, and modern UI frameworks."
       },
       {
-        "title": "intermediate in Pre-engineering",
+        "title": "Intermediate In Pre-engineering",
         "duration": "2021 - 2023",
         "subTitle": "Siraj UD Daulah College Karachi",
         "text": "Focused on analytical skills, mathematics, and logical problem-solving."
       },
       {
-        "title": "Matriculate in Computer Science",
+        "title": "Matriculate In Computer Science",
         "duration": "2019 - 2021",
         "subTitle": "Liaquat Public School Karachi",
         "text": "Learned programming basics and built a strong foundation in computer systems."
