@@ -1,4 +1,6 @@
-import { Link } from 'react-router-dom';
+'use client';
+
+import Link from 'next/link';
 import './Header.scss';
 import { Link as ScrollLink } from 'react-scroll';
 import { useEffect, useState } from 'react';
@@ -35,7 +37,7 @@ const Header = () => {
         <div className="container">
           <div className="st-main-header-in">
             <div className="st-main-header-left">
-              <Link className="st-site-branding" to='/' id="hero">
+              <Link className="st-site-branding" href="/" id="hero">
               {/* <img src="/images/logo.png" alt="Davis" /> */}
               <h1>H<span style={{color: '#FEC537'}}>R</span></h1>
               </Link>

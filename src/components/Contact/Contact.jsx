@@ -1,5 +1,6 @@
+'use client';
+
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import './Contact.scss';
 import SectionHeading from '../SectionHeading/SectionHeading';
 import { Icon } from '@iconify/react';
@@ -79,7 +80,7 @@ const Contact = ({ data, socialData }) => {
                 </div>
                 <div className="st-single-info-details">
                   <h4>Email</h4>
-                  <Link to="mailto:hassandanyal18@gmail.com">hassandanyal18@gmail.com</Link>
+                  <a href="mailto:hassandanyal18@gmail.com">hassandanyal18@gmail.com</a>
                 </div>
               </div>
               <div className="st-single-contact-info">
@@ -88,7 +89,7 @@ const Contact = ({ data, socialData }) => {
                 </div>
                 <div className="st-single-info-details">
                   <h4>Phone</h4>
-                  <span><Link to="tel:+92-3132453790"> +92-3132453790</Link></span>
+                  <span><a href="tel:+92-3132453790"> +92-3132453790</a></span>
                 </div>
               </div>
               <div className="st-single-contact-info">

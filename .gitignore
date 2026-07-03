@@ -5,13 +5,13 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Vite
+# Next.js
+.next/
+out/
+
+# Vite (legacy)
 dist/
 .vite/
-
-# Build outputs
-build/
-out/
 
 # Environment variables
 .env

@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
-import SectionHeading from '../SectionHeading/SectionHeading'
-import "./Resume.scss";
+import SectionHeading from '../SectionHeading/SectionHeading';
+import './Resume.scss';
 import SingleResume from './SingleResume';
 
 const ResumeSection = ({ data }) => {
   const { educationTitle, education, experienceTitle, experience } = data;
+
   return (
     <section id="resume" className="st-dark-bg">
       <div className="st-height-b100 st-height-lg-b80"></div>

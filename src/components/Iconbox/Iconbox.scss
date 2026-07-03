@@ -21,6 +21,10 @@
         filter: grayscale(0);
         opacity: 1;
       }
+
+      .st-service-icon {
+        color: $base-color1;
+      }
     }
     .st-iconbox-title {
       color: $base-color1;
@@ -44,6 +48,12 @@
     svg {
       width: 52px;
       fill: $dark-color5;
+      transition: all 0.4s ease;
+    }
+
+    .st-service-icon {
+      font-size: 52px;
+      color: $dark-color5;
       transition: all 0.4s ease;
     }
   }

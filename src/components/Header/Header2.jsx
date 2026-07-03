@@ -1,4 +1,6 @@
-import { Link } from 'react-router-dom';
+'use client';
+
+import Link from 'next/link';
 import './Header.scss';
 import { Link as ScrollLink } from 'react-scroll';
 import { useState } from 'react';

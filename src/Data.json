@@ -46,6 +46,10 @@
         "info": "hassandanyal18@gmail.com"
       },
       {
+        "title": "Website",
+        "info": "https://hassanraxa.com"
+      },
+      {
         "title": "From",
         "info": "Gulshan-e-iqbal Karachi Pakistan"
       },
@@ -66,63 +70,95 @@
   "serviceData": {
     "services": [
       {
-        "imgLink": "./images/icon/html.png",
-        "title": "HTML",
-        "text": "Clean and semantic HTML structure to build fast, SEO-friendly, and fully responsive web pages for all devices.",
+        "icon": "mdi:monitor-dashboard",
+        "title": "Frontend Development",
+        "text": "Modern, responsive, and performance-focused frontend development with clean structure and smooth user experiences across all devices.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "200"
       },
       {
-        "imgLink": "./images/icon/css.png",
-        "title": "CSS",
-        "text": "Modern, pixel-perfect styling using CSS and animations to make websites visually appealing and user-friendly.",
+        "icon": "simple-icons:react",
+        "title": "React",
+        "text": "Interactive and scalable web applications built with React, component-based architecture, and optimized UI performance.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "300"
       },
       {
-        "imgLink": "./images/icon/js.png",
-        "title": "Javascript",
-        "text": "Dynamic and interactive website features using JavaScript to enhance user experience and functionality.",
+        "icon": "simple-icons:nextdotjs",
+        "title": "Next.js",
+        "text": "Professional Next.js development for fast, SEO-friendly, and production-ready websites with modern App Router architecture.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "400"
       },
       {
-        "imgLink": "./images/icon/wp.png",
-        "title": "WordPress",
-        "text": "Custom WordPress websites with theme setup, plugin integration, and responsive design for any business need.",
+        "icon": "simple-icons:php",
+        "title": "PHP",
+        "text": "Backend-ready PHP implementation for dynamic functionality, form handling, and custom website features.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "500"
       },
       {
-        "imgLink": "./images/icon/shopify.png",
-        "title": "Shopify",
-        "text": "Professional Shopify store setup with custom design, product management, and smooth online shopping experience.",
+        "icon": "mdi:palette-swatch-outline",
+        "title": "UI/UX Design",
+        "text": "User-focused interface design with clear layouts, strong visual hierarchy, and designs that improve engagement and usability.",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "600"
       },
       {
-        "imgLink": "./images/icon/wix.png",
+        "icon": "mdi:email-fast-outline",
+        "title": "SMTP Integration",
+        "text": "Reliable email delivery setup with SMTP configuration, contact forms, and secure communication workflows for business websites.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "700"
+      },
+      {
+        "icon": "mdi:brush-variant",
+        "title": "Custom Theme Development",
+        "text": "Fully customized WordPress theme development tailored to brand identity, performance, scalability, and business requirements.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "icon": "simple-icons:wordpress",
+        "title": "WordPress",
+        "text": "Custom WordPress websites with theme setup, plugin integration, and responsive design for any business need.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "icon": "simple-icons:shopify",
+        "title": "Shopify",
+        "text": "Professional Shopify store setup with custom design, product management, and smooth online shopping experience.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "400"
+      },
+      {
+        "icon": "simple-icons:wix",
         "title": "Wix",
         "text": "Creative Wix websites with intuitive layouts, mobile optimization, and stunning visuals that match your brand.",
         "effect": "zoom-out-up",
         "duration": "500",
-        "delay": "700"
+        "delay": "500"
       },
       {
-        "imgLink": "./images/icon/squarespace.png",
+        "icon": "simple-icons:squarespace",
         "title": "Squarespace",
         "text": "Elegant and minimal Squarespace designs that focus on performance, clarity, and beautiful presentation.",
         "effect": "zoom-out-up",
         "duration": "500",
-        "delay": "700"
+        "delay": "600"
       },
       {
-        "imgLink": "./images/icon/webflow.png",
+        "icon": "simple-icons:webflow",
         "title": "Webflow",
         "text": "Custom Webflow websites with advanced animations and responsive layouts for a modern, high-end web presence.",
         "effect": "zoom-out-up",
@@ -130,18 +166,34 @@
         "delay": "700"
       },
       {
-        "imgLink": "./images/icon/joomla.png",
+        "icon": "simple-icons:joomla",
         "title": "Joomla",
         "text": "Robust Joomla website development with secure, scalable, and customizable solutions for business or personal use.",
         "effect": "zoom-out-up",
         "duration": "500",
-        "delay": "700"
+        "delay": "200"
+      },
+      {
+        "icon": "mdi:server-network",
+        "title": "Hosting",
+        "text": "Reliable web hosting setup, server configuration, and deployment to keep your website fast, secure, and always online.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "icon": "mdi:web",
+        "title": "Domain",
+        "text": "Domain registration, DNS configuration, and management to give your brand a professional online identity.",
+        "effect": "zoom-out-up",
+        "duration": "500",
+        "delay": "400"
       }
     ]
   },
   "skillData": {
-    "title": "All the skills that I have in that field of work are mentioned.",
-    "text": "I have a strong command over front-end and CMS-based web development tools. My skills allow me to design and develop modern, responsive, and user-friendly websites that perform smoothly across all devices. I work confidently with HTML, CSS, and JavaScript to create fast, interactive, and visually balanced websites. Alongside coding, I specialise in popular platforms like WordPress, Shopify, Wix, Squarespace, Webflow, and Joomla, building custom websites tailored to each client’s goals. My focus is always on writing clean code, ensuring responsive layouts, and maintaining excellent performance standards. I continuously learn new tools and techniques to stay updated with the latest trends in web development and design.",
+    "title": "A complete skill set built for modern web development, CMS platforms, and long-term website performance.",
+    "text": "I work confidently across the full web development stack — from writing clean HTML, CSS, and JavaScript to building responsive layouts, managing CMS platforms, and handling hosting, domains, and SEO. My focus is always on creating websites that are fast, secure, easy to manage, and designed to deliver a smooth experience on every device. Whether it is a custom frontend build, a WordPress or Shopify project, or complete website setup from domain to deployment, I bring strong technical skills and attention to detail to every stage of the process.",
     "skills": [
       {
         "title": "HTML",
@@ -176,28 +228,28 @@
         "progress": "100%",
         "effect": "fade-up",
         "duration": "500",
-        "delay": "500"
+        "delay": "600"
       },
       {
         "title": "Hostings",
         "progress": "100%",
         "effect": "fade-up",
         "duration": "500",
-        "delay": "600"
+        "delay": "700"
       },
       {
         "title": "Domains",
         "progress": "100%",
         "effect": "fade-up",
         "duration": "500",
-        "delay": "700"
+        "delay": "800"
       },
       {
         "title": "SEO",
         "progress": "100%",
         "effect": "fade-up",
         "duration": "500",
-        "delay": "700"
+        "delay": "900"
       }
     ]
   },
@@ -572,22 +624,30 @@
     "experienceTitle": "Experience",
     "experience": [
       {
-        "title": "Senior Wordpress Developer",
-        "duration": "Sep 2023 - Present",
-        "subTitle": "Bahadurabad Karachi, Rumpala LTD",
-        "text": "Leading WordPress projects, custom themes, and plugin integrations for business websites."
+        "title": "Senior WordPress Developer",
+        "duration": "June 2026 - Present",
+        "durationStart": "2026-06",
+        "isCurrent": true,
+        "subTitle": "Karachi Division, Groath Digital",
+        "text": "Building high-performance WordPress websites, solving complex development challenges, and contributing to innovative digital solutions."
       },
       {
-        "title": "Junior WordPress",
-        "duration": "Nov 2021 - September 2023",
-        "subTitle": "Nazimabad Karachi, KGT Globle",
-        "text": "Assisted in website maintenance, theme customisation, and client support."
+        "title": "WordPress Developer",
+        "duration": "November 2025 - June 2026 (8 months)",
+        "subTitle": "Karachi Division, Algoace",
+        "text": "Developed and maintained WordPress websites with a focus on clean code, responsive layouts, and reliable site performance."
       },
       {
-        "title": "Intrenship WordPress",
-        "duration": "Aug 2021 - Nov 2021",
-        "subTitle": "Nazimabad Karachi, KGT Globle",
-        "text": "Learned WordPress fundamentals and hands-on experience with live projects."
+        "title": "WordPress Developer",
+        "duration": "June 2024 - November 2025 (1 year 6 months)",
+        "subTitle": "Rumpala LTD",
+        "text": "Handled WordPress development, theme customization, plugin integration, and ongoing client website support."
+      },
+      {
+        "title": "WordPress Developer",
+        "duration": "June 2022 - June 2024 (2 years 1 month)",
+        "subTitle": "Karachi Division, KGT Global",
+        "text": "Worked on WordPress projects from development to deployment, gaining strong hands-on experience with live client websites."
       }
     ],
     "educationTitle": "Education",
@@ -637,7 +697,7 @@
     {
       "icon": "linkedin",
       "title": "LinkedIn",
-      "link": "https://www.linkedin.com/in/hassan-raza-51a6a7269/"
+      "link": "https://www.linkedin.com/in/mr-hassan-raza/"
     }
   ],
   "socialData2": [

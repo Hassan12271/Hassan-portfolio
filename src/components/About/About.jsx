@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
 import './About.scss';
 import SectionHeading from '../SectionHeading/SectionHeading';
+import DownloadCvButton from './DownloadCvButton';
 
 const About = ({ data }) => {
-  const { imgLink, title, subtitle, text, details, cvPdf } = data;
+  const { imgLink, title, subtitle, text, details } = data;
   return (
     <section id="about" className="st-about-wrap">
       <div className="st-height-b100 st-height-lg-b80"></div>
@@ -33,7 +34,7 @@ const About = ({ data }) => {
                     ))}
                   </ul>
                   <div className="st-text-block-btn">
-                    <a className='st-btn st-style1 st-color1' href={cvPdf} download>Download CV</a>
+                    <DownloadCvButton className="st-btn st-style1 st-color1" />
                   </div>
                 </div>
               </div>

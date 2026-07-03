@@ -1,3 +1,5 @@
+'use client';
+
 import PropTypes from 'prop-types';
 import './Hero.scss';
 import parser from 'html-react-parser';

@@ -1,4 +1,6 @@
-import { Link } from 'react-router-dom';
+'use client';
+
+import Link from 'next/link';
 import { Icon } from '@iconify/react';
 import { useEffect } from 'react';
 import './BlogDetails.scss';
@@ -47,7 +49,7 @@ const BlogDetails = () => {
             </h1>
             <div className="st-post-label">
               <span>
-                By <Link to="">Mary Neo</Link>
+                By <span>Mary Neo</span>
               </span>
               <span>Mar 15, 2020</span>
             </div>
@@ -161,41 +163,41 @@ const BlogDetails = () => {
                     <h4 className="st-post-tage-title">Tags:</h4>
                     <ul className="st-post-tage-list st-mp0">
                       <li>
-                        <Link to="#">App</Link>
+                        <Link href="#">App</Link>
                       </li>
                       <li>
-                        <Link to="#">php</Link>
+                        <Link href="#">php</Link>
                       </li>
                       <li>
-                        <Link to="#">web</Link>
+                        <Link href="#">web</Link>
                       </li>
                       <li>
-                        <Link to="#">business</Link>
+                        <Link href="#">business</Link>
                       </li>
                       <li>
-                        <Link to="#">agency</Link>
+                        <Link href="#">agency</Link>
                       </li>
                       <li>
-                        <Link to="#">development</Link>
+                        <Link href="#">development</Link>
                       </li>
                     </ul>
                   </div>
                   <div className="st-post-share">
                     <h4 className="st-post-share-title">Share:</h4>
                     <div className="st-post-share-btn-list">
-                      <Link to="#">
+                      <Link href="#">
                         <Icon icon="fa6-brands:facebook-f" />
                       </Link>
-                      <Link to="#">
+                      <Link href="#">
                         <Icon icon="fa6-brands:twitter" />
                       </Link>
-                      <Link to="#">
+                      <Link href="#">
                         <Icon icon="fa6-brands:behance" />
                       </Link>
-                      <Link to="#">
+                      <Link href="#">
                         <Icon icon="fa6-brands:instagram" />
                       </Link>
-                      <Link to="#">
+                      <Link href="#">
                         <Icon icon="fa6-brands:pinterest-p" />
                       </Link>
                     </div>
@@ -205,13 +207,13 @@ const BlogDetails = () => {
               </div>
               <div className="st-post-btn-gropu">
                 <Link
-                  to="#"
+                  href="#"
                   className="st-btn st-style2 st-color1 st-size-medium"
                 >
                   Previous Post
                 </Link>
                 <Link
-                  to="#"
+                  href="#"
                   className="st-btn st-style2 st-color1 st-size-medium"
                 >
                   Next Post
@@ -232,13 +234,13 @@ const BlogDetails = () => {
                             alt="comment1"
                             className="avatar"
                           />
-                          <Link to="" className="nm">
+                          <Link href="" className="nm">
                             Smith Jhon
                           </Link>
                         </div>
                         {/* .comment-author */}
                         <div className="comment-metadata">
-                          <Link to="">
+                          <Link href="">
                             <span>15 Jan, 2020</span>
                           </Link>
                         </div>
@@ -252,7 +254,7 @@ const BlogDetails = () => {
                         </p>
                       </div>
                       <div className="reply">
-                        <Link to="" className="comment-reply-link">
+                        <Link href="" className="comment-reply-link">
                           Reply
                         </Link>
                       </div>
@@ -268,12 +270,12 @@ const BlogDetails = () => {
                                 className="avatar"
                               />
                               <span className="nm">
-                                <Link to="">Robat Newman</Link>
+                                <Link href="">Robat Newman</Link>
                               </span>
                             </div>
                             {/* .comment-author */}
                             <div className="comment-metadata">
-                              <Link to="">
+                              <Link href="">
                                 <span>15 Jan, 2020</span>
                               </Link>
                             </div>
@@ -287,7 +289,7 @@ const BlogDetails = () => {
                             </p>
                           </div>
                           <div className="reply">
-                            <Link to="" className="comment-reply-link">
+                            <Link href="" className="comment-reply-link">
                               Reply
                             </Link>
                           </div>
@@ -306,12 +308,12 @@ const BlogDetails = () => {
                             className="avatar"
                           />
                           <span className="nm">
-                            <Link to="">Hannibal Lecter</Link>
+                            <Link href="">Hannibal Lecter</Link>
                           </span>
                         </div>
                         {/* .comment-author */}
                         <div className="comment-metadata">
-                          <Link to="">
+                          <Link href="">
                             <span>26 Jan, 2016</span>
                           </Link>
                         </div>
@@ -325,7 +327,7 @@ const BlogDetails = () => {
                         </p>
                       </div>
                       <div className="reply">
-                        <Link to="" className="comment-reply-link">
+                        <Link href="" className="comment-reply-link">
                           Reply
                         </Link>
                       </div>

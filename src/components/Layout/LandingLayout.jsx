@@ -1,9 +1,10 @@
+'use client';
+
 import { useEffect, useState } from 'react';
-import { Outlet } from 'react-router-dom';
 import Preloader from '../Preloader/Preloader';
 import CustomCursor from '../CustomCursor/CustomCursor';
 
-const LandingLayout = () => {
+const LandingLayout = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -12,17 +13,18 @@ const LandingLayout = () => {
     }, 1000);
   }, []);
 
-
   return (
     <>
-      {isLoading ? <Preloader /> : (
+      {isLoading ? (
+        <Preloader />
+      ) : (
         <div>
           <CustomCursor />
-          <Outlet />
+          {children}
         </div>
-      )
-      }
+      )}
     </>
-  )
-}
+  );
+};
+
 export default LandingLayout;

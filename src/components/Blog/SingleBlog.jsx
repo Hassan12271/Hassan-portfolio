@@ -1,4 +1,6 @@
-import { Link } from 'react-router-dom';
+'use client';
+
+import Link from 'next/link';
 import './Blog.scss';
 import PropTypes from 'prop-types';
 
@@ -6,7 +8,7 @@ const SingleBlog = ({ element }) => {
   const { imgLink, title, date, designation, href } = element;
   return (
     <div className={`st-post-single st-style1`}>
-      <Link to={href} className="st-post-thumb st-zoom">
+      <Link href={href} className="st-post-thumb st-zoom">
         <img src={imgLink} className="st-zoom-in" alt="blog1" />
       </Link>
       <div className="st-post-info">
@@ -19,7 +21,7 @@ const SingleBlog = ({ element }) => {
           <span className="st-post-publish-date">{date}</span>
         </div>
         <h4 className="st-post-title">
-          <Link to={href}>{title}</Link>
+          <Link href={href}>{title}</Link>
         </h4>
       </div>
     </div>

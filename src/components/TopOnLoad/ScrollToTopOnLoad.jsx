@@ -1,15 +1,16 @@
+'use client';
+
 import { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+import { usePathname } from 'next/navigation';
 
 const ScrollToTopOnLoad = () => {
-  const history = useHistory();
+  const pathname = usePathname();
+
   useEffect(() => {
-    const unlisten = history.listen(() => {
-      return () => unlisten();
-    });
     window.scrollTo(0, 0);
-  }, [history]);
+  }, [pathname]);
+
   return null;
 };
 
-export default ScrollToTopOnLoad
+export default ScrollToTopOnLoad;

@@ -1,6 +1,8 @@
-import SectionHeading from "../SectionHeading/SectionHeading";
-import "./Page404.scss";
-import { Link } from "react-router-dom";
+'use client';
+
+import SectionHeading from '../SectionHeading/SectionHeading';
+import './Page404.scss';
+import Link from 'next/link';
 
 const Page404 = () => {
   return (
@@ -8,11 +10,13 @@ const Page404 = () => {
       <div className="">
         <h3>4<span>0</span>4</h3>
         <h4>Page Not Found</h4>
-        <p>oops, the page you are looking for can't be found!</p>
-        <Link to='/' className="st-btn st-style1 st-color1">Go to Home</Link>
+        <p>oops, the page you are looking for can&apos;t be found!</p>
+        <Link href="/" className="st-btn st-style1 st-color1">
+          Go to Home
+        </Link>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Page404
+export default Page404;
