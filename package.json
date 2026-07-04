@@ -30,6 +30,6 @@
     "eslint-config-next": "^15.3.4"
   },
   "overrides": {
-    "caniuse-lite": "1.0.30001800"
+    "caniuse-lite": "1.0.30001730"
   }
 }
