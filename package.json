@@ -12,11 +12,11 @@
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^5.3.6",
-    "emailjs-com": "^3.2.0",
     "gsap": "^3.13.0",
     "html-react-parser": "^5.2.5",
     "jspdf": "^4.2.1",
     "next": "^15.3.4",
+    "nodemailer": "^9.0.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scroll": "^1.9.3",

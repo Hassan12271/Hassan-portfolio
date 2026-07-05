@@ -5,40 +5,51 @@ import './Contact.scss';
 import SectionHeading from '../SectionHeading/SectionHeading';
 import { Icon } from '@iconify/react';
 import SocialLinks from '../SocialLinks/SocialLinks';
-import React, { useRef, useState } from "react";
-import emailjs from "emailjs-com";
+import { useState } from 'react';
 
 const Contact = ({ data, socialData }) => {
-  const [status, setStatus] = useState("");
-  const form = useRef();
+  const [status, setStatus] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
+    setStatus('');
 
-    emailjs
-      .sendForm(
-        "service_puy5ynh", // your Service ID
-        "template_3o0cyop", // your Template ID
-        form.current,
-        "kpKXw-yeg_G-8sePL" // your Public Key
-      )
-      .then(
-        (result) => {
-          console.log("Success:", result.text);
-          // alert("Message sent successfully!");
-          setStatus("Thank you for contacting me!");
-          setTimeout(() => setStatus(""), 5000);
-          form.current.reset(); // clear form after send
-        },
-        (error) => {
-          console.error("Error:", error.text);
-          // alert("Failed to send message. Check console for details.");
-          setStatus("Something went wrong. Please try again.");
-          setTimeout(() => setStatus(""), 5000);
-        }
-      );
+    const formData = new FormData(e.currentTarget);
+    const payload = {
+      name: formData.get('name'),
+      email: formData.get('email'),
+      subject: formData.get('subject'),
+      phone: formData.get('phone'),
+      msg: formData.get('msg'),
+    };
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || 'Failed to send message.');
+      }
+
+      setStatus('Thank you for contacting me!');
+      e.currentTarget.reset();
+    } catch (error) {
+      setStatus(error.message || 'Something went wrong. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+      setTimeout(() => setStatus(''), 5000);
+    }
   };
+
   const { title, text, subTitle } = data;
+
   return (
     <section id="contact" className="st-dark-bg">
       <div className="st-height-b100 st-height-lg-b80"></div>
@@ -48,12 +59,12 @@ const Contact = ({ data, socialData }) => {
           <div className="col-lg-6">
             <h3 className="st-contact-title">Just say Hello</h3>
             <div id="st-alert"></div>
-            <form ref={form} onSubmit={sendEmail} className="st-contact-form" id="contact-form">
+            <form onSubmit={sendEmail} className="st-contact-form" id="contact-form">
               <div className="st-form-field">
                 <input type="text" id="name" name="name" placeholder="Your Name" required />
               </div>
               <div className="st-form-field">
-                <input type="text" id="email" name="email" placeholder="Your Email" required />
+                <input type="email" id="email" name="email" placeholder="Your Email" required />
               </div>
               <div className="st-form-field">
                 <input type="text" id="subject" name="subject" placeholder="Your Subject" required />
@@ -63,10 +74,17 @@ const Contact = ({ data, socialData }) => {
               </div>
               <div className="st-form-field">
                 <textarea cols="30" rows="10" id="msg" name="msg" placeholder="Your Message" required></textarea>
-                <input type="hidden" name="time" value={new Date().toLocaleString()} />
-                <div className="st-height-b0 st-height-lg-b30" id='success-message'>{status && <p>{status}</p>}</div>
+                <div className="st-height-b0 st-height-lg-b30" id="success-message">{status && <p>{status}</p>}</div>
               </div>
-              <button className='st-btn st-style1 st-color1' type="submit" id="submit" name="submit">Send Message</button>
+              <button
+                className="st-btn st-style1 st-color1"
+                type="submit"
+                id="submit"
+                name="submit"
+                disabled={isSubmitting}
+              >
+                {isSubmitting ? 'Sending...' : 'Send Message'}
+              </button>
             </form>
           </div>
           <div className="col-lg-6">
@@ -111,12 +129,12 @@ const Contact = ({ data, socialData }) => {
       </div>
       <div className="st-height-b100 st-height-lg-b80"></div>
     </section>
-  )
-}
+  );
+};
 
 Contact.propTypes = {
   data: PropTypes.object,
   socialData: PropTypes.array,
-}
+};
 
 export default Contact;
