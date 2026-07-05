@@ -46,21 +46,15 @@
     }
   }
 
-  .st-portfolio-img img {
+  .st-portfolio-img {
+    position: relative;
     width: 100%;
     height: 250px;
-    object-fit: cover;
+    overflow: hidden;
   }
 
-  .st-portfolio-img span {
-    display: block !important;
-    width: 100% !important;
-    height: 250px !important;
-  }
-
-  .st-portfolio-img span img {
-    width: 100%;
-    height: 250px;
+  .st-portfolio-img img,
+  .portfolio-thumbnail {
     object-fit: cover;
   }
 }

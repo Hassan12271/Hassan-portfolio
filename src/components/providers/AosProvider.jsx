@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 export default function AosProvider({ children }) {
   useEffect(() => {
     Aos.init({ once: true });
+    Aos.refresh();
   }, []);
 
   return children;

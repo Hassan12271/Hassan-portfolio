@@ -57,7 +57,7 @@ const PortfolioSection = ({ data }) => {
                 data={element}
                 key={element.webLink + element.title}
                 getData={getData}
-                priority={index < 3}
+                priority={index < 6}
               />
             ))}
             <div className="col-lg-12 text-center">

@@ -14,12 +14,11 @@ const SinglePortfolio = ({ data, getData, priority = false }) => {
               <Image
                 src={imgLink}
                 alt={title}
-                width={400}
-                height={250}
+                fill
                 sizes="(max-width: 768px) 100vw, (max-width: 992px) 50vw, 33vw"
                 quality={75}
                 priority={priority}
-                loading={priority ? undefined : 'lazy'}
+                className="portfolio-thumbnail"
               />
             </div>
             <div className="st-portfolio-item-hover">
