@@ -51,6 +51,18 @@
     height: 250px;
     object-fit: cover;
   }
+
+  .st-portfolio-img span {
+    display: block !important;
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+  .st-portfolio-img span img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
 }
 
 .st-portfolio-item-hover {

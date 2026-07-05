@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "optimize:portfolio": "node scripts/optimize-portfolio-images.mjs"
   },
   "dependencies": {
     "aos": "^2.3.4",
@@ -28,7 +29,8 @@
     "@eslint/eslintrc": "^3.3.5",
     "@iconify/react": "^6.0.0",
     "eslint": "^9.29.0",
-    "eslint-config-next": "^15.3.4"
+    "eslint-config-next": "^15.3.4",
+    "sharp": "^0.35.3"
   },
   "overrides": {
     "caniuse-lite": "1.0.30001730"

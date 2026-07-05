@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
+import Image from 'next/image';
 import { Icon } from '@iconify/react';
 
-const SinglePortfolio = ({ data, getData }) => {
+const SinglePortfolio = ({ data, getData, priority = false }) => {
   const { imgLink, imgLinkLg, webLink, title, subTitle, effect, duration, delay } = data;
 
   return (
@@ -10,7 +11,16 @@ const SinglePortfolio = ({ data, getData }) => {
         <div className="st-portfolio-item">
           <div className="st-portfolio st-zoom">
             <div className="st-portfolio-img st-zoom-in">
-                <img src={imgLink} alt="portfolio" />
+              <Image
+                src={imgLink}
+                alt={title}
+                width={400}
+                height={250}
+                sizes="(max-width: 768px) 100vw, (max-width: 992px) 50vw, 33vw"
+                quality={75}
+                priority={priority}
+                loading={priority ? undefined : 'lazy'}
+              />
             </div>
             <div className="st-portfolio-item-hover">
               <Icon icon="mdi:plus-circle" />
@@ -20,12 +30,14 @@ const SinglePortfolio = ({ data, getData }) => {
           </div>
         </div>
       </div>
-    </div >
-  )
-}
+    </div>
+  );
+};
 
 SinglePortfolio.propTypes = {
-  data: PropTypes.object
-}
+  data: PropTypes.object,
+  getData: PropTypes.func,
+  priority: PropTypes.bool,
+};
 
-export default SinglePortfolio
+export default SinglePortfolio;

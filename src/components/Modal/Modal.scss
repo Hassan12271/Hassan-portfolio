@@ -7,7 +7,25 @@
 
 .modal-body img {
   width: 100%;
+  height: auto;
   margin-bottom: 20px;
+}
+
+.modal-image-wrap {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+}
+
+.modal-image-wrap span {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+.modal-image-wrap img {
+  width: 100%;
+  height: auto;
 }
 .link{
   text-decoration: underline;
