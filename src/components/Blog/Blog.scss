@@ -1,5 +1,19 @@
 @import "../../sass/default/variable";
 
+.st-blog-coming-soon {
+  text-align: center;
+  padding: 60px 20px 80px;
+
+  p {
+    font-size: 28px;
+    font-weight: 400;
+    color: $base-color1;
+    margin: 0;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
+
 .st-blog-listing {
   .row {
     --bs-gutter-x: 2rem;
