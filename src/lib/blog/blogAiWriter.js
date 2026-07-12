@@ -1,4 +1,4 @@
-import { blogImages, slugify, topicTemplates } from './automation.js';
+import { BLOG_AUTHOR, BLOG_AUTHOR_ROLE, blogImages, slugify, topicTemplates } from './automation.js';
 import {
   generateJsonWithProvider,
   getAiProviderLabel,
@@ -8,8 +8,8 @@ import {
 } from './aiProviders.js';
 
 const AUTHOR = {
-  name: 'Hassan Raza',
-  designation: 'Web Developer',
+  name: BLOG_AUTHOR,
+  designation: BLOG_AUTHOR_ROLE,
   location: 'Karachi, Pakistan',
   website: 'https://www.hassanraxa.com',
 };

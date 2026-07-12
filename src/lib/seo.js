@@ -27,6 +27,7 @@ export function createPageMetadata({
   noindex = false,
   ogImage,
   type = 'website',
+  authors,
 }) {
   const pageTitle = title ? `${title} | ${siteConfig.name}` : siteConfig.title;
   const pageDescription = description ?? siteConfig.description;
@@ -45,6 +46,7 @@ export function createPageMetadata({
     robots: noindex
       ? { index: false, follow: false }
       : { index: true, follow: true },
+    ...(authors?.length ? { authors } : {}),
     openGraph: {
       title: pageTitle,
       description: pageDescription,

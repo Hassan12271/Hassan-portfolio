@@ -1,3 +1,7 @@
+export const BLOG_AUTHOR = 'Hassan Raza';
+export const BLOG_AUTHOR_ROLE = 'Web Developer';
+export const BLOG_AUTHOR_META = 'Hassan Raza Web Developer';
+
 export const blogImages = [
   '/images/blog/blog1.jpg',
   '/images/blog/blog2.jpg',
@@ -146,8 +150,8 @@ export function buildPostFromTemplate(template, date, imageIndex) {
     title: template.title,
     excerpt: template.excerpt,
     date,
-    author: 'Hassan Raza',
-    designation: 'Web Developer',
+    author: BLOG_AUTHOR,
+    designation: BLOG_AUTHOR_ROLE,
     imgLink: blogImages[imageIndex % blogImages.length],
     tags: template.tags,
     content: template.content,

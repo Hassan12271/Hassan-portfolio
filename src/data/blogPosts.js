@@ -34,7 +34,7 @@ export function getBlogCarouselData() {
     },
     informations: blogPosts.map((post) => ({
       imgLink: post.imgLink,
-      designation: post.designation,
+      author: post.author,
       date: post.date,
       title: post.title,
       href: `/blog/${post.slug}`,

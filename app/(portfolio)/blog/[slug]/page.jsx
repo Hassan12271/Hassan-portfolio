@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import BlogPost from '@/components/Blog/BlogPost';
 import JsonLd from '@/components/Seo/JsonLd';
 import { getBlogPost, blogPosts } from '@/data/blogPosts';
+import { BLOG_AUTHOR_META } from '@/lib/blog/automation';
 import { createPageMetadata, siteConfig } from '@/lib/seo';
 
 export function generateStaticParams() {
@@ -26,6 +27,7 @@ export async function generateMetadata({ params }) {
     path: `/blog/${post.slug}`,
     ogImage: post.imgLink,
     type: 'article',
+    authors: [{ name: BLOG_AUTHOR_META }],
   });
 }
 
@@ -46,7 +48,7 @@ export default async function BlogPostPage({ params }) {
     datePublished: post.date,
     author: {
       '@type': 'Person',
-      name: post.author,
+      name: BLOG_AUTHOR_META,
     },
     publisher: {
       '@type': 'Person',

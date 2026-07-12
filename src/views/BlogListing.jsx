@@ -20,7 +20,7 @@ const BlogListing = () => (
               <SingleBlog
                 element={{
                   imgLink: post.imgLink,
-                  designation: post.designation,
+                  author: post.author,
                   date: post.date,
                   title: post.title,
                   href: `/blog/${post.slug}`,
