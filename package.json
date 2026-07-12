@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "blog:publish": "node scripts/publish-daily-blog.mjs",
     "optimize:portfolio": "node scripts/optimize-portfolio-images.mjs"
   },
   "dependencies": {

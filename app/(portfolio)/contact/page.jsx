@@ -1,5 +1,6 @@
 import Contact from '@/components/Contact/Contact';
 import PageHero from '@/components/PageHero/PageHero';
+import { pageBanners } from '@/lib/pageBanners';
 import data from '@/Data.json';
 import { createPageMetadata } from '@/lib/seo';
 
@@ -17,6 +18,7 @@ export default function ContactPage() {
       <PageHero
         title="Contact"
         subtitle="Have a project in mind? Send a message and let's discuss your goals."
+        background={pageBanners.contact}
       />
       <Contact data={data.contactData} socialData={data.socialData} />
     </>

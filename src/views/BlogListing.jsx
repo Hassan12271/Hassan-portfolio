@@ -1,11 +1,16 @@
 import SingleBlog from '@/components/Blog/SingleBlog';
 import PageHero from '@/components/PageHero/PageHero';
+import { pageBanners } from '@/lib/pageBanners';
 import { blogPosts } from '@/data/blogPosts';
 import '@/components/Blog/Blog.scss';
 
 const BlogListing = () => (
   <>
-    <PageHero title="Blog" subtitle="Tips on web development, SEO, and modern UI/UX." />
+    <PageHero
+      title="Blog"
+      subtitle="Tips on web development, SEO, and modern UI/UX."
+      background={pageBanners.blog}
+    />
     <div className="st-height-b100 st-height-lg-b80" />
     <section id="blog">
       <div className="container">
