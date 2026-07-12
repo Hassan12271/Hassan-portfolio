@@ -13,10 +13,11 @@ const Contact = ({ data, socialData }) => {
 
   const sendEmail = async (e) => {
     e.preventDefault();
+    const form = e.currentTarget;
     setIsSubmitting(true);
     setStatus('');
 
-    const formData = new FormData(e.currentTarget);
+    const formData = new FormData(form);
     const payload = {
       name: formData.get('name'),
       email: formData.get('email'),
@@ -39,7 +40,7 @@ const Contact = ({ data, socialData }) => {
       }
 
       setStatus('Thank you for contacting me!');
-      e.currentTarget.reset();
+      form.reset();
     } catch (error) {
       setStatus(error.message || 'Something went wrong. Please try again.');
     } finally {
