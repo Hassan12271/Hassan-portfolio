@@ -1,11 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@/sass/style.scss';
 import AosProvider from '@/components/providers/AosProvider';
+import { createPageMetadata } from '@/lib/seo';
 
-export const metadata = {
-  title: 'Hassan - Personal portfolio',
-  description: 'Hassan Raza - Personal portfolio website',
-};
+export const metadata = createPageMetadata({});
 
 export default function RootLayout({ children }) {
   return (

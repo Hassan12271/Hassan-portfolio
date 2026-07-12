@@ -9,8 +9,11 @@ import Contact from "../components/Contact/Contact";
 import PortfolioSection from '../components/Protfolio/PortfolioSection';
 import Hero3 from '../components/Hero/Hero3';
 
+import { getBlogCarouselData } from '../data/blogPosts';
+
 const Home3 = () => {
-  const { heroData, aboutData, serviceData, skillData, portfolioData, blogData, resumeData, reviewData, contactData, socialData, socialData2 } = data;
+  const { heroData, aboutData, serviceData, skillData, portfolioData, resumeData, reviewData, contactData, socialData, socialData2 } = data;
+  const blogData = getBlogCarouselData();
   return (
     <>
       <Hero3 data={heroData.homeThreeHero} socialData={socialData2} />

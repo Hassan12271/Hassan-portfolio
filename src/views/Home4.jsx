@@ -10,8 +10,11 @@ import PortfolioSection from '../components/Protfolio/PortfolioSection';
 import Hero4 from '../components/Hero/Hero4';
 
 
+import { getBlogCarouselData } from '../data/blogPosts';
+
 const Home4 = () => {
-  const { heroData, aboutData, serviceData, skillData, portfolioData, blogData, resumeData, reviewData, contactData, socialData, socialData2 } = data;
+  const { heroData, aboutData, serviceData, skillData, portfolioData, resumeData, reviewData, contactData, socialData, socialData2 } = data;
+  const blogData = getBlogCarouselData();
   return (
     <>
       <Hero4 data={heroData.homeFourHero} socialData={socialData2} />

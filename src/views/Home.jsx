@@ -3,14 +3,16 @@ import About from '../components/About/About';
 import Iconbox from '../components/Iconbox/Iconbox';
 import Skill from '../components/Skill/Skill';
 import Resume from '../components/Resume/ResumeSection';
-// import BlogSection from '../components/Blog/BlogSection';
+import BlogSection from '../components/Blog/BlogSection';
 import ReviewSection from '../components/Review/ReviewSection';
 import Contact from "../components/Contact/Contact";
 import PortfolioSection from '../components/Protfolio/PortfolioSection';
 import Hero from '../components/Hero/Hero';
+import { getBlogCarouselData } from '../data/blogPosts';
 
 const Home = () => {
-  const { heroData, aboutData, serviceData, skillData, portfolioData, blogData, resumeData, reviewData, contactData, socialData } = data;
+  const { heroData, aboutData, serviceData, skillData, portfolioData, resumeData, reviewData, contactData, socialData } = data;
+  const blogData = getBlogCarouselData();
   return (
     <>
       <div className="st-height-b80 st-height-lg-b80"></div>
@@ -21,7 +23,7 @@ const Home = () => {
       <Resume data={resumeData} />
       <PortfolioSection data={portfolioData} data-aos="fade-right" />
       <ReviewSection data={reviewData} data-aos="fade-right" />
-      {/* <BlogSection data={blogData} data-aos="fade-right" /> */}
+      <BlogSection data={blogData} data-aos="fade-right" />
       <Contact data={contactData} socialData={socialData} data-aos="fade-right" />
     </>
   )

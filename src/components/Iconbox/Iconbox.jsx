@@ -7,7 +7,7 @@ const Iconbox = ({ data }) => {
   const { services } = data;
 
   return (
-    <section>
+    <section id="services">
       <div className="st-height-b100 st-height-lg-b80"></div>
       <SectionHeading title={'Service'} />
       <div className="container">

@@ -783,11 +783,11 @@
   "socialData2": [
     {
       "icon": "facebook-f",
-      "link": "/facebook"
+      "link": "https://web.facebook.com/hafizqari.muhammedhassan"
     },
     {
-      "icon": "twitter",
-      "link": "/twitter"
+      "icon": "instagram",
+      "link": "https://www.instagram.com/muhammedhassan.95/"
     },
     {
       "icon": "github",
