@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "blog:publish": "node scripts/publish-daily-blog.mjs",
+    "blog:publish": "node --env-file=.env.local scripts/publish-daily-blog.mjs",
     "optimize:portfolio": "node scripts/optimize-portfolio-images.mjs"
   },
   "dependencies": {

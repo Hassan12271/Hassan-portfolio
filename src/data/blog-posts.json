@@ -1,5 +1,27 @@
 [
   {
+    "slug": "how-to-design-a-mobile-first-portfolio-that-wins-high-paying-clients-2026-07-13",
+    "title": "How to Design a Mobile-First Portfolio That Wins High-Paying Clients",
+    "excerpt": "Learn how to build a high-converting, mobile-first portfolio website that captures client attention and strengthens your professional personal brand.",
+    "date": "2026-07-13",
+    "author": "Hassan Raza",
+    "designation": "Web Developer",
+    "imgLink": "/images/blog/blog1.jpg",
+    "tags": [
+      "Personal Branding",
+      "Mobile-First Design",
+      "Portfolio Tips"
+    ],
+    "content": [
+      "Most potential clients and recruiters will view your personal brand or portfolio website on a mobile device while on the go. Prioritizing a mobile-first design ensures your work looks stunning and loads instantly on smaller screens before scaling up to desktops. By focusing on mobile constraints first, you naturally eliminate unnecessary clutter and highlight your most impactful projects.",
+      "To make your mobile portfolio user-friendly, implement a simplified, thumb-friendly navigation menu and keep your contact buttons easily accessible at the bottom of the screen. Compress all project images using modern formats like WebP to guarantee rapid loading times over mobile networks. Additionally, replace heavy hover effects with intuitive tap gestures to ensure a seamless interactive experience for every visitor.",
+      "Strong typography and clear hierarchy are crucial when presenting your personal brand on a compact mobile viewport. Use scalable font sizes and generous line spacing so that your value proposition is readable without requiring users to pinch or zoom. This disciplined approach to content layout forces you to write concise, persuasive copy that immediately communicates your expertise to busy prospects.",
+      "Regularly test your live portfolio on various real mobile devices to catch layout shifts and resolve scaling bugs early. A flawless mobile experience signals to prospective clients that you pay attention to detail and value their time. If you want to elevate your online presence, start auditing your current mobile performance and streamline your layout today."
+    ],
+    "generatedBy": "ai",
+    "model": "gemini:gemini-flash-latest"
+  },
+  {
     "slug": "mobile-first-development-a-practical-starter-guide-2026-07-12",
     "title": "Mobile-First Development: A Practical Starter Guide",
     "excerpt": "Build websites for phones first, then scale up to tablet and desktop layouts.",
