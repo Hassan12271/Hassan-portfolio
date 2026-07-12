@@ -7,6 +7,19 @@
   width: 100%;
   height: 100vh;
   background-color: $base-color4;
+
+  &.st-preloader--auto-hide {
+    animation: stPreloaderFadeOut 0.45s ease 0.85s forwards;
+    pointer-events: none;
+  }
+
+  @keyframes stPreloaderFadeOut {
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
   .st-preloader-in {
     width: 120px;
     height: 120px;

@@ -1,28 +1,21 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Preloader from '../Preloader/Preloader';
 import CustomCursor from '../CustomCursor/CustomCursor';
 
 const LandingLayout = ({ children }) => {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 1000);
-  }, []);
+  const [showPreloader, setShowPreloader] = useState(true);
 
   return (
     <>
-      {isLoading ? (
-        <Preloader />
-      ) : (
-        <div>
-          <CustomCursor />
-          {children}
-        </div>
+      {showPreloader && (
+        <Preloader autoHide onHidden={() => setShowPreloader(false)} />
       )}
+      <div>
+        <CustomCursor />
+        {children}
+      </div>
     </>
   );
 };

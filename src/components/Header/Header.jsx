@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import './Header.scss';
 import { useEffect, useState } from 'react';
 
@@ -18,11 +17,15 @@ const navItems = [
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileToggle, setMobileToggle] = useState(false);
-  const pathname = usePathname();
+  const [pathname, setPathname] = useState('');
 
   const handleToggleMenu = () => {
     setMobileToggle(!mobileToggle);
   };
+
+  useEffect(() => {
+    setPathname(window.location.pathname);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
