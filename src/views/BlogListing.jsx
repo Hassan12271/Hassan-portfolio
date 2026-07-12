@@ -12,9 +12,9 @@ const BlogListing = () => (
       background={pageBanners.blog}
     />
     <div className="st-height-b100 st-height-lg-b80" />
-    <section id="blog">
+    <section id="blog" className="st-blog-listing">
       <div className="container">
-        <div className="row">
+        <div className="row g-4 g-lg-5">
           {blogPosts.map((post) => (
             <div className="col-lg-4 col-md-6" key={post.slug}>
               <SingleBlog

@@ -1,5 +1,23 @@
 @import "../../sass/default/variable";
+
+.st-blog-listing {
+  .row {
+    --bs-gutter-x: 2rem;
+    --bs-gutter-y: 2.5rem;
+  }
+
+  @media (min-width: 992px) {
+    .row {
+      --bs-gutter-x: 2.5rem;
+      --bs-gutter-y: 3rem;
+    }
+  }
+}
+
 .st-post-single.st-style1 {
+  height: 100%;
+  margin-bottom: 8px;
+
   .st-post-thumb {
     display: block;
     overflow: hidden;
@@ -32,7 +50,7 @@
   .st-post-title {
     font-size: 20px;
     font-weight: 400;
-    line-height: 1.2em;
+    line-height: 1.4em;
     margin-bottom: 0;
 
     &:hover {
