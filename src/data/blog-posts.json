@@ -1,5 +1,27 @@
 [
   {
+    "slug": "five-clear-signs-your-business-website-is-hurting-your-conversion-rates-2026-07-17",
+    "title": "Five Clear Signs Your Business Website Is Hurting Your Conversion Rates",
+    "excerpt": "Learn how to identify critical UI/UX flaws on your business website and discover actionable redesign tips to win back lost customers today.",
+    "date": "2026-07-17",
+    "author": "Hassan Raza",
+    "designation": "Web Developer",
+    "imgLink": "/images/blog/blog2.jpg",
+    "tags": [
+      "Web Design",
+      "UX Design",
+      "Conversion Rate Optimization"
+    ],
+    "content": [
+      "An outdated business website does more than just look old; it actively drives potential customers away to your competitors. If your bounce rates are climbing or visitors are leaving without taking action, your user experience (UX) is likely failing them. Regularly evaluating how users interact with your pages is the first step toward reclaiming your digital market share.",
+      "One major warning sign is a layout that feels clunky on modern smartphones, making it difficult for users to tap buttons or read text. Additionally, if your navigation menu is cluttered and requires more than three clicks to find essential service details, visitors will quickly lose patience. To fix this, simplify your header menu and ensure every button has a clear, thumb-friendly tap target on mobile devices.",
+      "Another red flag is a design that no longer aligns with your current brand identity or contains outdated imagery that diminishes your credibility. When your offline business grows but your website remains stuck in the past, it creates a trust gap for high-value leads. Upgrading to high-quality, authentic team photos and clean typography immediately signals professionalism and builds trust.",
+      "Finally, if your call-to-action buttons are hidden at the very bottom of the page or blend into the background, your conversion rates will inevitably suffer. Make your primary goals obvious by using contrasting colors for buttons like \"Get a Quote\" or \"Book a Consultation\" and placing them above the fold. Investing in a strategic, conversion-focused redesign will transform your website from a passive brochure into an active sales tool."
+    ],
+    "generatedBy": "ai",
+    "model": "gemini:gemini-flash-latest"
+  },
+  {
     "slug": "how-website-speed-directly-impacts-your-google-rankings-and-customer-conversion-rates-2026-07-16",
     "title": "How Website Speed Directly Impacts Your Google Rankings and Customer Conversion Rates",
     "excerpt": "Learn how optimizing your website's page speed can dramatically boost your Google rankings and prevent visitors from leaving before they buy.",
