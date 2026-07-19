@@ -1,5 +1,27 @@
 [
   {
+    "slug": "how-to-design-high-converting-landing-pages-without-ruining-core-web-vitals-2026-07-19",
+    "title": "How to Design High-Converting Landing Pages Without Ruining Core Web Vitals",
+    "excerpt": "Learn how to structure a high-converting landing page while maintaining blazing-fast loading speeds and perfect Core Web Vitals for your business.",
+    "date": "2026-07-19",
+    "author": "Hassan Raza",
+    "designation": "Web Developer",
+    "imgLink": "/images/blog/blog1.jpg",
+    "tags": [
+      "Core Web Vitals",
+      "Landing Page Optimization",
+      "Conversion Rate Optimization"
+    ],
+    "content": [
+      "Many business owners believe they must choose between a highly visual, high-converting landing page structure and lightning-fast performance. However, modern web design allows you to merge persuasive sales copy with exceptional Core Web Vitals to maximize both user experience and search visibility. By prioritizing how elements load, you can keep visitors engaged the moment they land on your page.",
+      "To optimize your Largest Contentful Paint (LCP), structure your hero section with clean, system-based typography and compress your main hero image into next-gen formats like WebP or AVIF. Avoid placing heavy JavaScript-driven sliders or unoptimized videos above the fold, as these elements delay the initial render and frustrate potential leads. A static, well-optimized hero image paired with a clear value proposition and a fast-loading call-to-action button ensures your page is immediately interactive.",
+      "Visual stability is another critical ranking and conversion factor, meaning you must prevent unexpected layout shifts as your landing page loads. Always define explicit width and height attributes for all media assets and reserve spaces for dynamic elements like testimonials or pricing tables. This simple adjustment eliminates Cumulative Layout Shift (CLS) issues, providing a seamless scrolling experience that builds trust with your prospects.",
+      "If you are running digital marketing campaigns in Pakistan or globally, audit your landing page speed using free tools like Google PageSpeed Insights. Implementing lazy-loading for below-the-fold content and minimizing third-party tracking scripts will instantly boost your performance and conversion rates. For professional assistance in building optimized, high-performing web platforms, feel free to explore my development services at hassanraxa.com."
+    ],
+    "generatedBy": "ai",
+    "model": "gemini:gemini-flash-latest"
+  },
+  {
     "slug": "react-vs-next-js-in-2026-which-framework-should-you-choose-for-client-projects-2026-07-18",
     "title": "React vs Next.js in 2026: Which Framework Should You Choose for Client Projects?",
     "excerpt": "Deciding between React and Next.js for your next client build? Here is how to choose the right framework to deliver fast, SEO-friendly websites in 2026.",
