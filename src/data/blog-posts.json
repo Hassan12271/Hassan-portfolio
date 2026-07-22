@@ -1,5 +1,27 @@
 [
   {
+    "slug": "a-practical-guide-to-mobile-first-react-development-for-growing-modern-businesses-2026-07-22",
+    "title": "A Practical Guide to Mobile First React Development for Growing Modern Businesses",
+    "excerpt": "Learn how a mobile-first React and Next.js strategy improves load speeds, user engagement, and conversions across all devices.",
+    "date": "2026-07-22",
+    "author": "Hassan Raza",
+    "designation": "Web Developer",
+    "imgLink": "/images/blog/blog1.jpg",
+    "tags": [
+      "Next.js",
+      "React",
+      "Mobile First"
+    ],
+    "content": [
+      "Mobile-first development ensures your website delivers an optimal user experience on smartphones before scaling up to desktop screens. Because over sixty percent of global web traffic comes from mobile devices, optimizing for smaller screens directly impacts your retention and search rankings. Implementing responsive layout strategies in React and Next.js allows your business to engage mobile users without sacrificing desktop functionality.",
+      "Start by leveraging Next.js image optimization features to automatically serve compressed, correctly sized media assets to mobile browsers. Touch targets like primary buttons and navigation links should measure at least forty-eight pixels in height to prevent frustrating mis-clicks on handheld devices. Additionally, simplify primary navigation menus so mobile visitors can reach your key services in two taps or fewer.",
+      "Utilizing React component libraries built with responsive CSS breakpoints ensures fluid design transitions across different viewport sizes. Fast server-side rendering and static page generation in Next.js minimize initial loading delays on slower mobile networks. Prioritizing critical content above the fold keeps users engaged while heavy scripts load in the background.",
+      "Investing in a mobile-first architecture reduces maintenance costs over time because you avoid retrofitting complex desktop layouts for smaller screens. Business owners who adopt this approach see immediate gains in user time-on-site, lower bounce rates, and higher conversion figures. Audit your current site on a smartphone today to identify high-friction areas that require immediate optimization."
+    ],
+    "generatedBy": "ai",
+    "model": "gemini:gemini-flash-latest"
+  },
+  {
     "slug": "how-to-structure-project-case-studies-that-turn-portfolio-visitors-into-high-paying-clients-2026-07-21",
     "title": "How to Structure Project Case Studies That Turn Portfolio Visitors Into High-Paying Clients",
     "excerpt": "Learn how to write compelling portfolio case studies that prove your value, build trust, and convert casual visitors into paying business clients.",
